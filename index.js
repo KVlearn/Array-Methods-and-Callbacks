@@ -190,12 +190,17 @@ function getCountryWins(inArray,teamInitials) {
 
 /* Stretch 4: Write a function called badDefense() that accepts a parameter `data` and calculates the team with the most goals scored against them per appearance (average goals against) in the World Cup finals */
 
-function badDefense(/* code here */) {
+// function badDefense(inData) {
+// let  finalsData=inData.filter((item)=> item.Stage === 'Finals')
+// /* map each country in finals with its against goal*/
+// finalsData.forEach((value,index){
+//   let outArr=[];
+//   outArr[index] = {'country' : value["Home Team Name"],'AgainstGoals' : value["Away Team Goals"]}
+//   // outArr.push{'country' : value["Away Team Name"],'AgainstGoals' : value["Away Team Goals"]}
+//   console.log(outArr);
+// })
+// };
 
-    /* code here */
-
-};
-
-badDefense();
+// badDefense(fifaData);
 
 /* If you still have time, use the space below to work on any stretch goals of your chosing as listed in the README file. */
